@@ -14,7 +14,7 @@ var appData = {
 
 };
 
-appData.expensesObligatory = prompt("Введите обязательную статью расходов в этом месяце", "Dolgam.Net");
+appData.expensesObligatory = prompt("Введите обязательную статью расходов в этом месяце", "Регулярный");
 var expensesObligatorySum = prompt("Во сколько обойдётся?", 15000);
 
 var expenses = {
